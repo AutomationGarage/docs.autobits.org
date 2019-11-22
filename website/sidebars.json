@@ -1,4 +1,28 @@
 {
   "docs": {
+    "Quick Start": [],
+    "Extensions": [
+      "1-Wire",
+      "ANSIx3.28SerialCommunication",
+      "ApplicationRunner",
+      "AutoBitsHardware",
+      "Automator",
+      "ComputerHardwareMonitor",
+      "ComputerVision",
+      "Demo",
+      "EmailSender",
+      "GSMCommunication",
+      "MQTTBroker",
+      "PIDController",
+      "Pinger",
+      "RESTServiceClient",
+      "SerialPort",
+      "SlidingAverage",
+      "SQLiteStorage",
+      "VideoCapture",
+      "VideoRecorder",
+      "WebInterface",
+      "Zigbee"
+    ]
   }
 }
