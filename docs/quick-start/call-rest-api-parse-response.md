@@ -26,8 +26,7 @@ repeat = 1s
 ```
 
 ![Configure Automator to send request OpenWeather api](/quickstart/rest-configure-automator-v2.png)
-
-Configure Automator to make requests to [OpenWeather](https://openweathermap.org/api) API.
+*Configure Automator to make requests to [OpenWeather](https://openweathermap.org/api) API.*
 
 At **17:40** **REST Service Client** extension will make a **GET** request to [OpenWeather](https://openweathermap.org/api) API using the specified **URL**. It will repeat the call every second.
 
@@ -35,7 +34,7 @@ Setting **dataPointValueJsonPath** specifies JSON property to use as a data poin
 
 Consider this response from [OpenWeather](https://openweathermap.org/api) API for example:
 
-```js
+```json
 {
    "coord":{
       "lon":-0.13,
@@ -82,21 +81,20 @@ Consider this response from [OpenWeather](https://openweathermap.org/api) API fo
 
 In this case, a data point **Temperature in London** with the value of **280.32 °F** will be generated.
 
-Note: OpenWeather sample API returns same temperature for every request._
+*Note: OpenWeather sample API returns same temperature for every request.*
 
 ## 2. Test
 
 Open a dashboard and create a panel to represent received data points:
 
-* On the dashboard: <span class="font-italic">Right Click -> Add Panel -> Plot.</span>
+* On the dashboard: *Right Click -> Add Panel -> Plot.*
 
 * Open panel settings (using gear icon). Select the data channel **Temperature in London**.
 
 * Save the dashboard by clicking **Save Changes**.
 
 ![Temperature in London on a plot](/quickstart/rest-dashboard.png)
-
-Temperature in London on a plot.
+*Temperature in London on a plot.*
 
 ## Conclusion
 

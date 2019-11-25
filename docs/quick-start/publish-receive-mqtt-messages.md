@@ -18,14 +18,13 @@ password = test
 ```
 
 ![Configure and enable MQTT Broker extension](/quickstart/configure-mqtt.png)
-
-Configure and enable MQTT Broker extension.
+*Configure and enable MQTT Broker extension.*
 
 ## 2. Add a button to a dashboard
 
 When you install AutoBits and start it for the first time, you will see a demo dashboard.
 
-* On the dashboard: Right Click -> Add Panel -> Button.
+* On the dashboard: *Right Click -> Add Panel -> Button*.
 
 * Open panel settings (using gear icon) and rename the button to **Send MQTT Message**.
 
@@ -34,8 +33,7 @@ When you install AutoBits and start it for the first time, you will see a demo d
 * Click on the button, so that AutoBits can learn about it.
 
 ![Add 'Send MQTT Message' button to the dashboard](/quickstart/add-buttton-send-mqtt-message.png)
-
-Add "Send MQTT Message" button to the dashboard.
+*Add "Send MQTT Message" button to the dashboard.*
 
 ## 3. Configure Automator extension to publish MQTT message
 
@@ -52,8 +50,7 @@ payload = testMessage
 ```
 
 ![Configure Automator extension to send MQTT message](/quickstart/configure-automator-send-mqtt.png)
-
-Configure Automator extension to send MQTT message.
+*Configure Automator extension to send MQTT message.*
 
 ## 4. Send test message
 
@@ -67,17 +64,9 @@ You can use any MQTT client to test if messages are sent. In this example, [MyMQ
 
 * MQTT client should receive the message
 
-![Connect to MQTT broker](/quickstart/my-mqtt-1.jpg)
-
-Connect to MQTT broker.
-
-![Subscribe to 'testTopic'](/quickstart/my-mqtt-2.jpg)
-
-Subscribe to "testTopic".
-
-![View the message](/quickstart/my-mqtt-3.jpg)
-
-View the message.
+![Connect to MQTT broker](/quickstart/my-mqtt-1.jpg)  |  ![Subscribe to "testTopic"](/quickstart/my-mqtt-2.jpg) | ![View the message](/quickstart/my-mqtt-3.jpg)
+:------------------------------:|:-------------------------------:|:---------------------------------------------:
+*Connect to MQTT broker*          | *Subscribe to "testTopic"*       | *View the message*
 
 ## 5. Receive and parse MQTT messages
 
@@ -91,27 +80,22 @@ MQTT messages should be formatted in the following manner:
 
 In this example [MyMQTT](https://play.google.com/store/apps/details?id=at.tripwire.mqtt.client) client is used to send messages to AutoBits:
 
-![Connect to MQTT broker](/quickstart/receive-mqtt-message-1.jpg)
-
-Publish data point.
-
-![Subscribe to 'testTopic'](/quickstart/receive-mqtt-message-2.jpg)
-
-Publish event.
+![Connect to MQTT broker](/quickstart/receive-mqtt-message-1.jpg)  |  ![Subscribe to 'testTopic'](/quickstart/receive-mqtt-message-2.jpg)
+:------------------------------:|:-------------------------------:
+*Publish data point.*          | *Publish event.*
 
 ## 6. Receive test message
 
 Add a panel to a dashboard to show data points published by MQTT client:
 
-* On the dashboard: Right Click -> Add Panel -> Plot.
+* On the dashboard: *Right Click -> Add Panel -> Plot*.
 
 * Open panel settings (using gear icon). Select the data channel published by the MQTT client.
 
 * Save the dashboard by clicking **Save Changes**.
 
 ![View data points and events sent from MQTT client.](/quickstart/mqtt-receive-messages-dashboard.png)
-
-View data points and events sent from MQTT client.
+*View data points and events sent from MQTT client.*
 
 ## Conclusion
 

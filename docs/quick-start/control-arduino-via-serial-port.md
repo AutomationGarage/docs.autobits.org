@@ -13,8 +13,7 @@ How to add buttons to AutoBits dashboard to control an LED through Serial Port.
 Connect an LED with a 220 Ω resistor in series to pins 13 and GND.
 
 ![Wiring diagram](/quickstart/arduino-quickstart.png)
-
-Wiring diagram: [https://www.arduino.cc/en/tutorial/blink](https://www.arduino.cc/en/tutorial/blink)
+*Wiring diagram: [https://www.arduino.cc/en/tutorial/blink](https://www.arduino.cc/en/tutorial/blink)*
 
 ## 2. Upload sketch
 
@@ -57,7 +56,7 @@ void executeCommand(String command) {
 
 When you install AutoBits and start it for the first time, you will see a demo dashboard.
 
-* On the dashboard: Right Click -> Add Panel -> Button.
+* On the dashboard: *Right Click -> Add Panel -> Button*.
 
 * Open panel settings (using gear icon) and rename the button to **On**.
 
@@ -68,8 +67,7 @@ When you install AutoBits and start it for the first time, you will see a demo d
 * Click both buttons, so that AutoBits can learn about them.
 
 ![Adding buttons to dashboard](/quickstart/add-buttons-to-dashboard.gif)
-
-Adding buttons to a dashboard.
+*Adding buttons to a dashboard.*
 
 ## 4. Enable Serial Port extension
 
@@ -92,8 +90,7 @@ baudRate = 9600
 * Turn on the extension.
 
 ![Configuring Serial Port extension](/quickstart/enable-serial-port-extension.gif)
-
-Configuring Serial Port extension.
+*Configuring Serial Port extension.*
 
 ## 5. Set up a reaction to a button click
 
@@ -118,8 +115,7 @@ message = off
 ```
 
 ![Configuring Automator extension](/quickstart/configure-automator.png)
-
-Configuring Automator extension.
+*Configuring Automator extension.*
 
 ## 6. Test
 

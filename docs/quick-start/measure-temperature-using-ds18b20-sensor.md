@@ -11,8 +11,7 @@ How to connect DS18B20 temperature sensor using 1-Wire bus and display the measu
 Use DS9490R 1-Wire to USB adapter. Wire the sensor in the following way:
 
 ![Wiring diagram](/quickstart/wiring-diagram.png)
-
-Wiring diagram
+*Wiring diagram*
 
 ## 2. Enable 1-Wire extension
 
@@ -33,17 +32,15 @@ port = USB1
 * Turn on the extension.
 
 ![Configuring 1-Wire extension.](/quickstart/configure-1-wire-v3.png)
-
-Configuring 1-Wire extension.
+*Configuring 1-Wire extension.*
 
 ## 3. Add a plot to a dashboard
 
-* On the dashboard: Right Click -> Add Panel -> Plot.
+* On the dashboard: *Right Click -> Add Panel -> Plot*.
 * Open panel settings (using gear icon). Select the data channel of the sensor.
 
 ![Configuring 1-Wire extension.](/quickstart/add-1-wire-to-dashboard.png)
-
-Selecting Data Channel to show on the plot.
+*Selecting Data Channel to show on the plot.*
 
 * Save the dashboard by clicking **Save Changes**.
 
