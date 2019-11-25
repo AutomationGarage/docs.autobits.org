@@ -28,7 +28,16 @@ const siteConfig = {
   //   organizationName: 'JoelMarcey'
 
   // For no header links in the top nav bar -> headerLinks: [],
-  headerLinks: [],
+  headerLinks: [
+    { href: 'https://autobits.org/', label: 'Home' },
+    { href: '/', label: 'Docs' },
+    { href: 'https://autobits.org/features', label: 'Features' },
+    { href: 'https://autobits.org/download', label: 'Download' },
+    { href: 'https://autobits.org/subscribe', label: 'Subscribe' },
+    { href: 'https://autobits.org/roadmap', label: 'Roadmap' },
+    { href: 'https://demo.autobits.org/', label: 'Live Demo' },
+    { href: 'https://autobits.org/signin', label: 'Sign In' },
+  ],
 
   // If you have users set above, you add it here:
   users,
@@ -67,7 +76,7 @@ const siteConfig = {
   },
 
   // Add custom scripts here that would be placed in <script> tags.
-  scripts: ['https://buttons.github.io/buttons.js'],
+  scripts: [],
 
   // On page navigation for the current documentation page.
   onPageNav: 'separate',
@@ -77,6 +86,8 @@ const siteConfig = {
   // Open Graph and Twitter card images.
   ogImage: 'img/undraw_online.svg',
   twitterImage: 'img/undraw_tweetstorm.svg',
+  twitterUsername: "AutoBitsApp",
+  facebookAppId: "AutoBitsApp",
 
   // For sites with a sizable amount of content, set collapsible to true.
   // Expand/collapse the links and subcategories under categories.
