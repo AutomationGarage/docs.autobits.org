@@ -1,6 +1,9 @@
 {
   "docs": {
-    "Quick Start": [
+    "Getting Started": [
+      "getting-started/introduction"
+    ],
+    "Quick Start Guides": [
       "quick-start/control-arduino-via-serial-port", 
       "quick-start/call-rest-api-parse-response",
       "quick-start/measure-temperature-using-ds18b20-sensor",

@@ -30,7 +30,7 @@ const siteConfig = {
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
     { href: 'https://autobits.org/', label: 'Home' },
-    { href: '/', label: 'Docs' },
+    { doc: "getting-started/introduction", href: "/docs", label: "Docs" },
     { href: 'https://autobits.org/features', label: 'Features' },
     { href: 'https://autobits.org/download', label: 'Download' },
     { href: 'https://autobits.org/subscribe', label: 'Subscribe' },
