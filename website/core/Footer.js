@@ -36,57 +36,14 @@ class Footer extends React.Component {
             )}
           </a>
           <div>
-            <h5>Links</h5>
-            <a
-              href="https://autobits.org/"
-              target="_blank"
-              rel="noreferrer noopener">
-              Project Website
-            </a>
-            <a
-              href="https://feedback.autobits.org/"
-              target="_blank"
-              rel="noreferrer noopener">
-              Feedback
-            </a>
-            <a href="https://github.com/AutomationGarage/AutoBits">Issue Tracker</a>
-            {this.props.config.twitterUsername && (
-              <div className="social">
-                <a
-                  href={`https://twitter.com/${this.props.config.twitterUsername}`}
-                  className="twitter-follow-button">
-                  Follow @{this.props.config.twitterUsername}
-                </a>
-              </div>
-            )}
-            {this.props.config.facebookAppId && (
-              <div className="social">
-                <div
-                  className="fb-like"
-                  data-href={this.props.config.url}
-                  data-colorscheme="dark"
-                  data-layout="standard"
-                  data-share="true"
-                  data-width="225"
-                  data-show-faces="false"
-                />
-              </div>
-            )}
+            <h5>CONTACT US</h5>
+            <a href="https://t.me/AutoBits" target="_blank" rel="noreferrer noopener">Telegram</a>
+            <a href="mailto:team@automationgarage.com" target="_blank" rel="noreferrer noopener">team@automationgarage.com</a>
+          </div>
+          <div>
+            <a href="https://feedback.autobits.org/" target="_blank" rel="noreferrer noopener">Send Feedback</a>
           </div>
         </section>
-
-        <a
-          href="https://opensource.facebook.com/"
-          target="_blank"
-          rel="noreferrer noopener"
-          className="fbOpenSource">
-          <img
-            src={`${this.props.config.baseUrl}img/oss_logo.png`}
-            alt="Facebook Open Source"
-            width="170"
-            height="45"
-          />
-        </a>
         <section className="copyright">{this.props.config.copyright}</section>
       </footer>
     );
