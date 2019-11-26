@@ -1,5 +1,4 @@
 ---
-id: WebInterface
 title: Web Interface
 sidebar_label: Web Interface
 ---

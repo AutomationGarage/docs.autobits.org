@@ -1,5 +1,4 @@
 ---
-id: PIDController
 title: PID Controller
 sidebar_label: PID Controller
 ---

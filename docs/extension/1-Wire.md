@@ -1,5 +1,4 @@
 ---
-id: 1-Wire
 title: 1-Wire
 sidebar_label: 1-Wire
 ---

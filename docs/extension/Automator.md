@@ -1,5 +1,4 @@
 ---
-id: Automator
 title: Automator
 sidebar_label: Automator
 ---

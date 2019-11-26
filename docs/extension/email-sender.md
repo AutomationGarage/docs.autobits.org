@@ -1,5 +1,4 @@
 ---
-id: EmailSender
 title: Email Sender
 sidebar_label: Email Sender
 ---

@@ -1,5 +1,4 @@
 ---
-id: GSMCommunication
 title: GSM Communication
 sidebar_label: GSM Communication
 ---

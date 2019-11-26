@@ -1,5 +1,4 @@
 ---
-id: MQTTBroker
 title: MQTT Broker
 sidebar_label: MQTT Broker
 ---

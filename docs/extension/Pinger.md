@@ -1,5 +1,4 @@
 ---
-id: Pinger
 title: Pinger
 sidebar_label: Pinger
 ---

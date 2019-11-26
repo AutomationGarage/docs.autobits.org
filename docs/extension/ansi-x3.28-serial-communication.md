@@ -1,5 +1,4 @@
 ---
-id: ANSIx3.28SerialCommunication
 title: ANSI x3.28 Serial Communication
 sidebar_label: ANSI x3.28 Serial Communication
 ---

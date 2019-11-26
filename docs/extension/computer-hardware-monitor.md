@@ -1,5 +1,4 @@
 ---
-id: ComputerHardwareMonitor
 title: Computer Hardware Monitor
 sidebar_label: Computer Hardware Monitor
 ---

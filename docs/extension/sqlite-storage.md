@@ -1,5 +1,4 @@
 ---
-id: SQLiteStorage
 title: SQLite Storage
 sidebar_label: SQLite Storage
 ---

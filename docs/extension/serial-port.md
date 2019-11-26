@@ -1,5 +1,4 @@
 ---
-id: SerialPort
 title: Serial Port
 sidebar_label: Serial Port
 ---

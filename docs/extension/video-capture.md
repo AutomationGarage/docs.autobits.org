@@ -1,5 +1,4 @@
 ---
-id: VideoCapture
 title: Video Capture
 sidebar_label: Video Capture
 ---

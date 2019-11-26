@@ -1,5 +1,4 @@
 ---
-id: Zigbee
 title: Zigbee
 sidebar_label: Zigbee
 ---

@@ -1,5 +1,4 @@
 ---
-id: VideoRecorder
 title: Video Recorder
 sidebar_label: Video Recorder
 ---

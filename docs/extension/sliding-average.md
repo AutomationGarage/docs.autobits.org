@@ -1,5 +1,4 @@
 ---
-id: SlidingAverage
 title: Sliding Average
 sidebar_label: Sliding Average
 ---

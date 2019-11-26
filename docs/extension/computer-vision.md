@@ -1,5 +1,4 @@
 ---
-id: ComputerVision
 title: Computer Vision
 sidebar_label: Computer Vision
 ---

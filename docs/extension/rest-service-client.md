@@ -1,5 +1,4 @@
 ---
-id: RESTServiceClient
 title: REST Service Client
 sidebar_label: REST Service Client
 ---

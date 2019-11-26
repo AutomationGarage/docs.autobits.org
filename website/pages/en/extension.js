@@ -24,7 +24,7 @@ class Docs extends React.Component {
   render() {
     return (
       <Redirect
-        redirect={docUrl("1-Wire", this.props.language)}
+        redirect={docUrl("1-wire", this.props.language)}
         config={siteConfig}
       />
     );
