@@ -1,5 +1,4 @@
 ---
-id: control-arduino-via-serial-port
 title: Control Arduino with AutoBits via Serial Port
 sidebar_label: Control Arduino via Serial Port
 ---

@@ -1,5 +1,4 @@
 ---
-id: measure-temperature-using-ds18b20-sensor
 title: Measure temperature with AutoBits using DS18B20 sensor
 sidebar_label: Measure temperature using DS18B20 sensor
 ---

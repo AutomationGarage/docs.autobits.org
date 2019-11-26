@@ -1,5 +1,4 @@
 ---
-id: call-rest-api-parse-response
 title: Call REST API and parse response using AutoBits
 sidebar_label: Call REST API and parse response
 ---

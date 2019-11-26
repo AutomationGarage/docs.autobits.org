@@ -1,5 +1,4 @@
 ---
-id: publish-receive-mqtt-messages
 title: Publish and receive MQTT messages using AutoBits
 sidebar_label: Publish and receive MQTT messages
 ---

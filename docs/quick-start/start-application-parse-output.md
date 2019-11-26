@@ -1,5 +1,4 @@
 ---
-id: start-application-parse-output
 title: Start an application programmatically using AutoBits
 sidebar_label: Start an application programmatically
 ---
