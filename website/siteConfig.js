@@ -30,7 +30,7 @@ const siteConfig = {
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
     { href: 'https://autobits.org/', label: 'Home' },
-    { doc: "getting-started/introduction", href: "/docs", label: "Docs" },
+    { doc: "getting-started/introduction", href: "getting-started/introduction", label: "Documentation" },
     { href: 'https://autobits.org/features', label: 'Features' },
     { href: 'https://autobits.org/download', label: 'Download' },
     { href: 'https://autobits.org/subscribe', label: 'Subscribe' },
@@ -88,6 +88,7 @@ const siteConfig = {
   twitterImage: 'img/undraw_tweetstorm.svg',
   twitterUsername: "AutoBitsApp",
   facebookAppId: "AutoBitsApp",
+  docsUrl: '',
 
   // For sites with a sizable amount of content, set collapsible to true.
   // Expand/collapse the links and subcategories under categories.
