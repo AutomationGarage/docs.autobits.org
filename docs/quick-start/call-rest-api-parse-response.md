@@ -25,7 +25,7 @@ dataPointValueJsonPath = main.temp
 repeat = 1s
 ```
 
-![Configure Automator to send request OpenWeather api](/quickstart/rest-configure-automator-v2.png)
+![Configure Automator to send request OpenWeather api](/img/quickstart/rest-configure-automator-v2.png)
 *Configure Automator to make requests to [OpenWeather](https://openweathermap.org/api) API.*
 
 At **17:40** **REST Service Client** extension will make a **GET** request to [OpenWeather](https://openweathermap.org/api) API using the specified **URL**. It will repeat the call every second.
@@ -93,7 +93,7 @@ Open a dashboard and create a panel to represent received data points:
 
 * Save the dashboard by clicking **Save Changes**.
 
-![Temperature in London on a plot](/quickstart/rest-dashboard.png)
+![Temperature in London on a plot](/img/quickstart/rest-dashboard.png)
 *Temperature in London on a plot.*
 
 ## Conclusion

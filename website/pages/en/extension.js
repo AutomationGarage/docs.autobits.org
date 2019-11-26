@@ -13,7 +13,7 @@ const siteConfig = require(process.cwd() + "/siteConfig.js");
 function docUrl(doc, language) {
   return (
     siteConfig.baseUrl +
-    "extension/" +
+    "extensions/" +
     (language ? language + "/" : "") +
     doc +
     ".html"

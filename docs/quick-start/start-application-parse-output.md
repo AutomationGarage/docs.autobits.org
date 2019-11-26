@@ -36,7 +36,7 @@ repeat = 1s
 
 In this example, we are going to get RAM used by AutoBits itself.
 
-![Configure Automator extension to run the script](/quickstart/run-application-powershell-v2.png)
+![Configure Automator extension to run the script](/img/quickstart/run-application-powershell-v2.png)
 *Configure Automator extension to run the script.*
 
 ## 3. Test
@@ -47,7 +47,7 @@ In this example, we are going to get RAM used by AutoBits itself.
 
 * Save the dashboard by clicking **Save Changes**.
 
-![RAM used by AutoBits on a plot](/quickstart/run-application-used-ram.png)
+![RAM used by AutoBits on a plot](/img/quickstart/run-application-used-ram.png)
 *RAM used by AutoBits on a plot.*
 
 ## Conclusion
