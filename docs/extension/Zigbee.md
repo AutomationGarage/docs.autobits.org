@@ -1,7 +1,7 @@
 ---
-id: 1-Wire
-title: 1-Wire
-sidebar_label: 1-Wire
+id: Zigbee
+title: Zigbee
+sidebar_label: Zigbee
 ---
 
 allows you to send and receive Zigbee commands.
