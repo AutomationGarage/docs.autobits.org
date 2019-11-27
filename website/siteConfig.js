@@ -12,7 +12,7 @@
 const users = [];
 
 const siteConfig = {
-  title: '| Docs', // Title for your website.
+  title: 'Docs', // Title for your website.
   tagline: 'AutoBits Documentation',
   url: 'https://docs.autobits.org', // Your website URL
   baseUrl: '/', // Base URL for your project */
@@ -92,7 +92,7 @@ const siteConfig = {
 
   // For sites with a sizable amount of content, set collapsible to true.
   // Expand/collapse the links and subcategories under categories.
-  // docsSideNavCollapsible: true,
+  docsSideNavCollapsible: true,
 
   // Show documentation's last contributor's name.
   // enableUpdateBy: true,
