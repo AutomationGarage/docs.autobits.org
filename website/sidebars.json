@@ -8,7 +8,8 @@
       "quick-start/measure-temperature-using-ds18b20-sensor",
       "quick-start/start-application-parse-output",
       "quick-start/publish-receive-mqtt-messages",
-      "quick-start/call-rest-api-parse-response"
+      "quick-start/call-rest-api-parse-response",
+      "quick-start/control-light-via-zigbee"
     ],
     "Extensions": [
       "extensions/1-wire",
