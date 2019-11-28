@@ -3,7 +3,7 @@ title: Call REST API and parse response using AutoBits
 sidebar_label: Call REST API and parse response
 ---
 
-How to use AutoBits REST Service Client extension to call [OpenWeather](https://openweathermap.org/api) API to retrieve weather information.
+How to use AutoBits REST Service Client extension to call OpenWeather API to retrieve weather information.
 
 ## 1. Configure Automator extension to send HTTP requests
 
