@@ -32,7 +32,8 @@
       "extensions/video-capture",
       "extensions/video-recorder",
       "extensions/web-interface",
-      "extensions/zigbee"
+      "extensions/zigbee",
+      "extensions/ui-automation"
     ]
   }
 }

@@ -1,5 +1,4 @@
 ---
-id: AutoBitsHardware
 title: AutoBits Hardware
 sidebar_label: AutoBits Hardware
 ---
