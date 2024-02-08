@@ -3,6 +3,8 @@ title: Introduction
 sidebar_label: Introduction
 ---
 
+Welcome to AutoBits documentation website!
+
 ## Download
 
 Download AutoBits for Windows <a href="https://cdn.autobits.org/releases/AutoBits%20Setup.exe" title="AutoBits for Windows" target="_blank">here</a>.
